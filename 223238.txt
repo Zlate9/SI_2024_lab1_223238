@@ -1,0 +1,64 @@
+4.
+mkdir SI_2024_lab1_223238    -kreira direktorium
+cd SI_2024_lab1_223238     -vleguva vo direktorium
+git init     -inicijalizira git vo direktoriumot
+5.
+git remote add origin https://github.com/Zlate9/SI_2024_lab1_223238   -gi povrzuva repozitoriumite
+6.
+touch README.md     -kreira nova datoteka
+notepad README.md      -ja otvara datotekata vo notepad
+git add README.md     -dodava na scena
+git commit -m "Initial commit"      -pravi commit
+7.
+curl -o SILab1Main.java https://raw.githubusercontent.com/stefanandonov/SI_2024/master/SILab1Main.java      -gi dodava vo repozitorium
+curl -o SILab1_1.java https://raw.githubusercontent.com/stefanandonov/SI_2024/master/SILab1_1.java
+curl -o SILab1_2.java https://raw.githubusercontent.com/stefanandonov/SI_2024/master/SILab1_2.java
+git add SILab1Main.java
+git add SILab1_1.java
+git add SILab1_2.java     -gi stava na stage
+git commit -m "Add starter code"    -pravi commit
+8.
+git push --all origin     -gi sinhronizira grankite so oddaleceniot repozitorium odnosno gi pushnuva promenite
+9.
+git checkout -b bug1     -pravi granka
+git checkout master     -se vrakja na master
+git checkout -b bug2      -pravi druga granka
+10.
+git checkout bug1     -se prefrla na bug1
+11.
+notepad SILab1_1.java     -otvara notepad da se popravi greskata
+git add SILab1_1.java       -dodava na stage
+git commit -m "Fix wrong condition in filterOddLengthStrings"     -pravi commit
+12.
+git checkout bug2     -se prefrla na drugata granka
+13.
+notepad SILab1_2.java     -otvara notepad da se popravi greskata
+git add SILab1_2.java       -dodava na stage
+git commit -m "Fix wrong condition in makeBigStringFrom"     -pravi commit
+14.
+git checkout bug1     -se vrakja na bug1
+15.
+notepad SILab1Main.java     -otvara notepad za izmeni
+git add SILab1Main.java      -dodava na stage
+git commit -m "Call method filterOddLengthStrings in main class"      -pravi commit
+16.
+git checkout bug2      -se vrakja na bug2
+17.
+notepad SILab1Main.java    -orvara notepad za izmeni
+git add SILab1Main.java      -dodava na stage
+git commit -m "Call method makeBigStringFrom in main class"     -pravi commit
+18.
+git push --all origin     -gi sinhronizira grankite so oddaleceniot repozitorium odnosno gi pushnuva promenite
+28.git add logs.txt 223238.txt
+git commit -m "Final commit"
+29.
+git push origin master
+
+
+
+
+
+
+
+
+
