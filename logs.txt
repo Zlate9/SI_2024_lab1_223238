@@ -1,0 +1,23 @@
+commit b9010d9044086189472b6dfc6eb0468883f844da
+Author: Zlate9 <zlatkojovanovski12345@gmail.com>
+Date:   Sun Apr 14 20:52:07 2024 +0200
+
+    t checkout master
+
+commit 319c7e77723eedc331a6f6239bceea02bbc26c51
+Author: Zlate9 <zlatkojovanovski12345@gmail.com>
+Date:   Sun Apr 14 14:36:19 2024 +0200
+
+    Add starter code
+
+commit ff301aa222b1ea61d903bf8d1e70b128abf0047f
+Author: Zlate9 <zlatkojovanovski12345@gmail.com>
+Date:   Sun Apr 14 14:11:54 2024 +0200
+
+    Initial commit
+
+commit 2a245587973bf2b0867d6cb03c302f0fbc32f35a
+Author: Zlate9 <zlatkojovanovski12345@gmail.com>
+Date:   Sat Apr 13 19:20:22 2024 +0200
+
+    Initial commit
